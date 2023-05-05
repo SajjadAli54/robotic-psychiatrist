@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Virtual Psychiatrist Questionnaire</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Virtual Psychiatrist Questionnaire</h1>
+    <form>
+        <label for="q1">1. What brings you here today?</label>
+        <input type="text" id="q1" name="q1" required><br><br>
+        <label for="q2">2. Can you tell me a little bit about your background and personal history?</label>
+        <textarea id="q2" name="q2" required></textarea><br><br>
+        <label for="q3">3. Have you ever received mental health treatment before? If so, what was your experience
+            like?</label>
+        <input type="radio" id="q3-yes" name="q3" value="yes" required>
+        <label for="q3-yes">Yes</label>
+        <input type="radio" id="q3-no" name="q3" value="no">
+        <label for="q3-no">No</label><br><br>
+        <label for="q4">4. Are you currently experiencing any symptoms or concerns?</label>
+        <textarea id="q4" name="q4" required></textarea><br><br>
+
+        <label for="q5">5. How long have you been experiencing these symptoms?</label>
+        <input type="text" id="q5" name="q5" required><br><br>
+
+        <label for="q6">6. Have you noticed any triggers or patterns in your symptoms?</label>
+        <textarea id="q6" name="q6" required></textarea><br><br>
+
+        <label for="q7">7. How do your symptoms impact your daily life and functioning?</label>
+        <textarea id="q7" name="q7" required></textarea><br><br>
+
+        <label for="q8">8. Have you experienced any recent stressors or life changes?</label>
+        <textarea id="q8" name="q8" required></textarea><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
